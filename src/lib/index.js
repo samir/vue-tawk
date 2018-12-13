@@ -13,7 +13,7 @@ Tawk.install = function (Vue, options) {
     s0.parentNode.insertBefore(s1, s0)
     window.Tawk_API = Tawk_API
   }
-  Vue.prototype.$Tawk.$createChat()
+  // Vue.prototype.$Tawk.$createChat()
   Vue.prototype.$Tawk.$updateChatUser = function (user) {
     if (!user) return
     window.Tawk_API.onLoad = function () {
